@@ -4,11 +4,6 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-footer {
-    background-color: black;
-    color: white;
-}
-
 #logo {
     margin-top: 0px;
     margin-right: auto;
@@ -18,16 +13,27 @@ footer {
 }
 
 nav {
-    background-color: rgb(190, 190, 190);   
+    background-color: rgb(200, 200, 200);   
     padding: 0.5rem;
-
+    border: 1px solid gray;
+    border-bottom: none;
+    
 }
 
 nav > a {
     text-decoration: none;
     color: black;
-    margin: 7rem;
-    font-weight: bold;
+    margin: 100px;
+    
+    font-weight: bold; 
+}
+
+nav > a:hover {
+    color: black;
+    background-color:rgb(78,202,245);
+    padding-top:8px;
+    padding-bottom: 8px;
+
 }
 
 header {
@@ -35,4 +41,19 @@ header {
     padding: 10px;
 }
 
+
+.active {
+    background-color:rgb(78,202,245);
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
    
+footer {
+    background-color: black;
+    color: white;
+}
