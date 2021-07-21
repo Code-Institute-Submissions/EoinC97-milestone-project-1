@@ -13,5 +13,21 @@ This is the first of four Milestone Projects that the developer must complete du
 
 The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
+
+
 # IDEAL USER DEMOGRAPHIC 
+The ideal user demographic would be the hospitality industry, the fitness industry and education to name a few.
+
+These customers for example would require a high volume of cleaning on a regular bases and with that comes the need for a high volume of cleaing supplies and materials. 
+
+
+# credits
+
+https://www.w3schools.com/
+
+youtube.com
+
+codeinstitute.com
+
+https://www.aktacleaningdublin.com/
 

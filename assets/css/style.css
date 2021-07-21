@@ -14,22 +14,22 @@ body {
 
 #home {
     margin-right: 10px;
-    margin-left: 340px;
+    margin-left: 170px;
 }
 
 #products {
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 150px;
 }
 
 #aboutus {
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 150px;
 
 }
 #contact {
-    margin-right: 100px;
-    margin-left: 30px;
+    
+    margin-left: 150px;
     
 }
 
@@ -71,32 +71,38 @@ header {
 /* background image on home page */
 #call {
 	padding: 1rem 0;
-    background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat;
-    height: 180px;
+    background-image: url('https://www.aktacleaningdublin.com/uploads/JSeO4lw4/767x0_2560x0/23459150-close-up-image-of-.jpg');
+    padding-top: 150px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    padding-left: 0px;
+    padding-right: 0px; 
 }
 
-
+/* text overlay box and call us button*/
 .text-white {
     color: white;
 }
 
 .text-box{
-    color: rgb(255, 255, 255);
-    margin-left: 55px;
-    padding-top: 10px;
+    color: white;
+    margin-left: 45px;
+    padding-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 800;
+    font-size: 16px;
     text-align: left;
 }
 
 .call-box {
     background-color: rgb(78, 202, 245);
     width : 100%;
-    height: 50px;
+    height: 100px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.6;
     margin-top: 110px;
 }
 
@@ -104,59 +110,27 @@ header {
     float: right;
     margin-right: 50px;
     text-decoration: none;
-    border: 1px solid white;
-    background-color: black;
+    border: 3px solid white;
+    background-color: rgb(78, 202, 245);
     text-transform: uppercase;
     font-weight: 800;
     padding: 5px;
-    margin-top:10px; 
+    margin-top:30px; 
 }
 
+/*    text under image   */
 .text {
     color:rgb(78, 202, 245);
 
 }
 
-#review {
-    color:red;
-    text-align:center;
-
-}
-
- .one{
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
-    text-align: left;
-}
-
-.two {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
-    text-align: left;
-
-}
-
-.three {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
-    text-align: left;
-}
-
 .main {
     color:black;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
     font-size: 13px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
    
 }
 
@@ -170,10 +144,49 @@ h1 {
 
 h3 {
     color:rgb(78, 202, 245);
-    font-weight: lighter;
+    font-weight: normal;
     text-align: center;
     font-size: 16px;
 }
+
+#review {
+    color:black;
+    text-align:center;
+
+}
+
+ .one{
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    padding-right: 10px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.two {
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    padding-right: 10px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.three {
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    padding-right: 10px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
 
 h2 {
     color:rgb(78, 202, 245);
@@ -182,46 +195,51 @@ h2 {
     text-align: center;
 }
 
-.four {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
-    text-align: left;
-    margin-left: 15px;
+
+/*  footer */
+.contact-boxes-container {
+ width: 90%;
+ margin: 0 auto;
 }
 
-.five {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
-    text-align: center;
+/* address */
+.contact-box-left {
+    width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 13px;
+    float: left;
 }
 
-/*.six {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
-    padding-right: 10px;
-    font-size: 11px;
+/* opening hours*/
+.contact-box-right {
+    width: 250px;
     text-align: left;
-} */
+	float: right;
+    padding-top: 20px;
+    font-size: 13px;
+}
 
+/*phone*/
+.contact-box-center {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    margin-left: 240px;
+    color: white;
+}
 
-
-
-
-
-
-
+.contact-box-center > a {
+    text-decoration: none;
+    color: rgb(78, 202, 245);
+}
 
 
 footer {
     background-color:gray;
     color: white;
-    height: 100px;
- 
+    height: 130px;
+    width: 100%; 
 }
