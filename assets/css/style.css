@@ -28,8 +28,8 @@ body {
 
 }
 #contact {
-    
     margin-left: 150px;
+    
     
 }
 
@@ -157,7 +157,7 @@ h3 {
 
 }
 
- .one{
+ .one {
     vertical-align: top;
     display: inline-block;
     width:20%;
@@ -256,13 +256,42 @@ footer {
 
 /*images*/
 
-h4 {
-    text-transform: uppercase;
-    color: rgb(78, 202, 245);
-    font-size: 10px;
+.p1 { 
+    text-align: left;
     
+    
+
+}
+.p2 {
+
 }
 
 #paper1 {
-    margin-left: 50px;
+    
+    
 }
+
+#catering {
+  
+
+}
+
+/* #refuse {
+
+}
+
+#chemical {
+
+}
+
+#ancillary {
+
+}
+
+#glove {
+
+}
+
+#soap {
+    
+}*/
