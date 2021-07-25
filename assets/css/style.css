@@ -140,6 +140,7 @@ h1 {
     font-weight: lighter;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -147,6 +148,7 @@ h3 {
     font-weight: normal;
     text-align: center;
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 #review {
@@ -242,4 +244,25 @@ footer {
     color: white;
     height: 130px;
     width: 100%; 
+}
+
+/* screensizes tablet and mobile 
+@media screen and (max-width:) {
+    
+}*/
+
+
+/* products page*/
+
+/*images*/
+
+h4 {
+    text-transform: uppercase;
+    color: rgb(78, 202, 245);
+    font-size: 10px;
+    
+}
+
+#paper1 {
+    margin-left: 50px;
 }
