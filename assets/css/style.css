@@ -149,6 +149,7 @@ h3 {
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
+    
 }
 
 #review {
@@ -254,37 +255,81 @@ footer {
 
 /* products page*/
 
+
+
 /*images*/
 
 .p1 { 
     text-align: left;
-    
-    
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.p2 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 350px;
+    position: absolute;
+}
+
+.p3 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 660px;
+    position: absolute;
 
 }
-.p2 {
+.p4 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 960px;
+    position: absolute;
+}
 
+.p5 {
+    text-align: left;
+    text-transform: uppercase;
+
+}
+.p6 {
+    text-align: left;
+    text-transform: uppercase;
+}
+.p7 {
+    text-align: left;
+    text-transform: uppercase;
 }
 
 #paper1 {
-    
-    
+   margin-left:50px ; 
+   margin-top: 20px; 
 }
 
 #catering {
-  
-
+    position: absolute; 
+    left: 350px;
+    bottom: 160px;
 }
 
-/* #refuse {
+#refuse {
+    position: absolute; 
+    left: 660px;
+    bottom: 160px;
 
 }
 
 #chemical {
+    position: absolute; 
+    left: 960px;
+    bottom: 160px;
 
 }
 
 #ancillary {
+    position: absolute;
+   margin-left: 50px;
+
 
 }
 
@@ -293,5 +338,30 @@ footer {
 }
 
 #soap {
+
+}
+
+
     
-}*/
+
+/* contact box going across page */
+.info {
+    background-color:rgb(200, 200, 200);
+    width : 100%;
+    height: 100px;
+    left: 0px;
+    opacity: 0.6;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 6px solid rgb(78, 202, 245);
+    border-top: 2px solid rgb(78, 202, 245);
+}
+
+.info-text-box1 {
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 5px;
+}
+

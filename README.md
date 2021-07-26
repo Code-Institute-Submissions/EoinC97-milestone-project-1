@@ -21,6 +21,18 @@ The ideal user demographic would be the hospitality industry, the fitness indust
 These customers for example would require a high volume of cleaning on a regular bases and with that comes the need for a high volume of cleaing supplies and materials. 
 
 
+# wireframe
+Wireframes were created using figma.com workspace, which provided an excellant user experience.
+
+/workspace/milestone-project-1/assets/images/figma 1.png
+/workspace/milestone-project-1/assets/images/figma 2.png
+/workspace/milestone-project-1/assets/images/figma 3.png
+/workspace/milestone-project-1/assets/images/figma 4.png
+/workspace/milestone-project-1/assets/images/option 2 (1).png
+/workspace/milestone-project-1/assets/images/option 2 (2).png
+/workspace/milestone-project-1/assets/images/option 2 (3).png
+/workspace/milestone-project-1/assets/images/option 2 (4).png
+
 # credits
 
 https://www.w3schools.com/
