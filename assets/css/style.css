@@ -8,28 +8,31 @@ body {
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left: 500px;
+    display: block;
+    margin-left: 450px;
     background-color: white;
 }
 
 #home {
     margin-right: 10px;
     margin-left: 170px;
+    
 }
 
 #products {
     margin-right: 10px;
     margin-left: 150px;
+    
 }
 
 #aboutus {
     margin-right: 10px;
     margin-left: 150px;
+   
 
 }
 #contact {
-    margin-left: 150px;
-    
+    margin-left: 150px;  
     
 }
 
@@ -51,7 +54,25 @@ nav > a:hover {
     color: black;
     background-color:rgb(78,202,245);
     padding-top:8px;
-    padding-bottom: 8px;
+   padding-bottom: 8px;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(78, 202, 245);
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50%;
+
+    text-decoration:none ;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+    
+
 }
 
 header {
@@ -204,7 +225,7 @@ h2 {
  margin: 0 auto;
 }
 
-/* address */
+ /* address */
 .contact-box-left {
     width: 250px;
     text-align: left;
@@ -216,10 +237,11 @@ h2 {
 /* opening hours*/
 .contact-box-right {
     width: 250px;
-    text-align: left;
 	float: right;
     padding-top: 20px;
-    font-size: 13px;
+    font-size: 13px; 
+    text-align: right;
+    
 }
 
 /*phone*/
@@ -229,7 +251,7 @@ h2 {
     font-size: 13px;
     color: black;
     display: inline-block;
-    margin-left: 240px;
+    margin-left: 220px;
     color: white;
 }
 
@@ -246,6 +268,12 @@ footer {
     width: 100%; 
 }
 
+.days {
+   margin-right: 50px; 
+}
+
+
+
 /* screensizes tablet and mobile 
 @media screen and (max-width:) {
     
@@ -256,7 +284,7 @@ footer {
 
 
 
-/*images text*/
+/*images text
 
 .p1 { 
     text-align: left;
@@ -299,7 +327,9 @@ footer {
     text-align: left;
     text-transform: uppercase;
 }
-/* product images */
+
+
+/* product images 
 #paper1 {
    margin-left:50px ; 
    margin-top: 20px; 
@@ -330,14 +360,19 @@ footer {
    margin-left: 50px;
 }
 
+*/
+
 /*#glove {
 
 }
 
 #soap {
 
-}*/ 
+}
 
+.images {
+
+}*/
 
     
 
@@ -378,6 +413,9 @@ footer {
     font-size: 17px;
 }
 
-#map {
+/*#map {
 
-}
+}*/
+
+/*  add spans to the times on footer, put span around days should push times over, fix map on contact, add rest of photos
+positon photos better with id tags and flex. */ 
