@@ -9,7 +9,7 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     display: block;
-    margin-left: 450px;
+    margin-left: 500px;
     background-color: white;
 }
 
@@ -139,17 +139,13 @@ header {
 }
 
 /*    text under image   */
-.text {
-    color:rgb(78, 202, 245);
-
-}
 
 .main {
     color:black;
     text-align: left;
     margin-left: 45px;
     margin-right: 45px;
-    font-size: 13px;
+    font-size: 18px;
     margin-bottom: 50px;
    
 }
@@ -163,12 +159,17 @@ h1 {
     text-transform: uppercase;
 }
 
+
+
 h3 {
     color:rgb(78, 202, 245);
     font-weight: normal;
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
+    border-bottom: 1px solid rgb(78, 202, 245);
+    width: 75%;
+    margin-left: 160px;
     
 }
 
@@ -176,6 +177,10 @@ h3 {
     color:black;
     text-align:center;
 
+}
+
+.text {
+    color:rgb(78, 202, 245);
 }
 
  .one {
@@ -219,65 +224,30 @@ h2 {
 }
 
 
-/*  footer */
-.contact-boxes-container {
- width: 90%;
- margin: 0 auto;
-}
-
- /* address */
-.contact-box-left {
-    width: 250px;
-    text-align: left;
-    padding-top: 20px;
-    font-size: 13px;
-    float: left;
-}
-
-/* opening hours*/
-.contact-box-right {
-    width: 250px;
-	float: right;
-    padding-top: 20px;
-    font-size: 13px; 
-    text-align: right;
-    
-}
-
-/*phone*/
-.contact-box-center {
-    text-align: left;
-    padding-top: 20px;
-    font-size: 13px;
-    color: black;
-    display: inline-block;
-    margin-left: 220px;
-    color: white;
-}
-
-.contact-box-center > a {
-    text-decoration: none;
-    color: rgb(78, 202, 245);
-}
-
-
-footer {
-    background-color:gray;
-    color: white;
-    height: 130px;
-    width: 100%; 
-}
-
-.days {
-   margin-right: 50px; 
-}
 
 
 
-/* screensizes tablet and mobile 
+ /* screensizes tablet and mobile 
 @media screen and (max-width:) {
     
 }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* products page*/
@@ -330,32 +300,32 @@ footer {
 
 
 /* product images 
-#paper1 {
+.paper1 {
    margin-left:50px ; 
    margin-top: 20px; 
 }
 
-#catering {
+.catering {
     position: absolute; 
     left: 350px;
     bottom: 160px;
 }
 
-#refuse {
+.refuse {
     position: absolute; 
     left: 660px;
     bottom: 160px;
 
 }
 
-#chemical {
+.chemical {
     position: absolute; 
     left: 960px;
     bottom: 160px;
 
 }
 
- #ancillary {
+ .ancillary {
     position: absolute;
    margin-left: 50px;
 }
@@ -369,10 +339,19 @@ footer {
 #soap {
 
 }
+*/
 
-.images {
 
-}*/
+.image1 {
+    display : flex;
+    justify-content: flex-start;
+}
+
+.image4 {
+    display : flex;
+    justify-content: flex-end;
+    
+}
 
     
 
@@ -398,6 +377,59 @@ footer {
 
 /* about us*/
 
+.aboutush1 {
+    color: rgb(78, 202, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+} 
+
+.man1 {
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+.ptext {
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+.salestext {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 202, 245);
+    font-size: 13px;   
+}
+
+.aboutush2 {
+    color:rgb(78, 202, 245);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+/* .man2 { 
+    display : flex;
+    justify-content: center;
+
+/* } */
+
+/*.man3 {
+    display : flex;
+    justify-content: flex-end;
+    margin-right: 50px; 
+}*/
+
+
+
+
+
+
+
+
 
 /* contact page */
 .contactpage {
@@ -417,5 +449,56 @@ footer {
 
 }*/
 
-/*  add spans to the times on footer, put span around days should push times over, fix map on contact, add rest of photos
-positon photos better with id tags and flex. */ 
+/*  footer */
+.contact-boxes-container {
+    width: 90%;
+    margin: 0 auto;
+   }
+   
+    /* address */
+   .contact-box-left {
+       width: 250px;
+       text-align: left;
+       padding-top: 20px;
+       font-size: 13px;
+       float: left;
+   }
+   
+   /* opening hours*/
+   .contact-box-right {
+       width: 250px;
+       float: right;
+       padding-top: 20px;
+       font-size: 13px; 
+       text-align: right;
+       
+   }
+   
+   /*phone*/
+   .contact-box-center {
+       text-align: left;
+       padding-top: 20px;
+       font-size: 13px;
+       color: black;
+       display: inline-block;
+       margin-left: 220px;
+       color: white;
+   }
+   
+   .contact-box-center > a {
+       text-decoration: none;
+       color: rgb(78, 202, 245);
+   }
+   
+   
+   footer {
+       background-color:gray;
+       color: white;
+       height: 130px;
+       width: 100%; 
+   }
+   
+   .days {
+      margin-right: 50px; 
+   }
+   

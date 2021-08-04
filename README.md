@@ -15,23 +15,21 @@ The main requirements were to make a responsive and static website with a minimu
 
 
 
-# IDEAL USER DEMOGRAPHIC 
+# Ideal User Demographic 
 The ideal user demographic would be the hospitality industry, the fitness industry and education to name a few.
 
 These customers for example would require a high volume of cleaning on a regular bases and with that comes the need for a high volume of cleaing supplies and materials. 
 
 
-# wireframe
+# Wireframe
 Wireframes were created using figma.com workspace, which provided an excellant user experience.
 
-/workspace/milestone-project-1/assets/images/figma 1.png
-/workspace/milestone-project-1/assets/images/figma 2.png
-/workspace/milestone-project-1/assets/images/figma 3.png
-/workspace/milestone-project-1/assets/images/figma 4.png
-/workspace/milestone-project-1/assets/images/option 2 (1).png
-/workspace/milestone-project-1/assets/images/option 2 (2).png
-/workspace/milestone-project-1/assets/images/option 2 (3).png
-/workspace/milestone-project-1/assets/images/option 2 (4).png
+
+ ![image of wireframe]
+ (https://crimson-puma-nbyzz3f4.ws-eu13.gitpod.io/images/figma1.png)
+
+
+
 
 # credits
 
@@ -39,7 +37,5 @@ https://www.w3schools.com/
 
 youtube.com
 
-codeinstitute.com
-
-https://www.aktacleaningdublin.com/
+http://flexboxfroggy.com/
 
