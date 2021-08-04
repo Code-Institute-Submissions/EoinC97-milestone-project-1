@@ -165,11 +165,12 @@ h3 {
     color:rgb(78, 202, 245);
     font-weight: normal;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
-    border-bottom: 1px solid rgb(78, 202, 245);
+    border-bottom: 1px solid rgb(163, 163, 163) ;
     width: 75%;
     margin-left: 160px;
+    
     
 }
 
@@ -187,8 +188,8 @@ h3 {
     vertical-align: top;
     display: inline-block;
     width:20%;
-    padding-right: 10px;
-    font-size: 11px;
+    padding-right: 20px;
+    font-size: 13px;
     text-align: left;
     margin-bottom: 50px;
 }
@@ -197,8 +198,8 @@ h3 {
     vertical-align: top;
     display: inline-block;
     width:20%;
-    padding-right: 10px;
-    font-size: 11px;
+    padding-right: 20px;
+    font-size: 13px;
     text-align: left;
     margin-bottom: 50px;
 
@@ -208,8 +209,8 @@ h3 {
     vertical-align: top;
     display: inline-block;
     width:20%;
-    padding-right: 10px;
-    font-size: 11px;
+    padding-right: 20px;
+    font-size: 13px;
     text-align: left;
     margin-bottom: 50px;
 }
@@ -234,128 +235,80 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* products page*/
 
-
-
-/*images text
-
-.p1 { 
-    text-align: left;
-    text-transform: uppercase;
-    margin-left: 50px;
-    position: absolute;
-}
-
-.p2 {
-    text-align: left;
-    text-transform: uppercase;
-    margin-left: 350px;
-    position: absolute;
-}
-
-.p3 {
-    text-align: left;
-    text-transform: uppercase;
-    margin-left: 660px;
-    position: absolute;
-
-}
-.p4 {
-    text-align: left;
-    text-transform: uppercase;
-    margin-left: 960px;
-    position: absolute;
-}
-
-.p5 {
-    text-align: left;
-    text-transform: uppercase;
-
-}
-.p6 {
-    text-align: left;
-    text-transform: uppercase;
-}
-.p7 {
-    text-align: left;
-    text-transform: uppercase;
-}
-
-
-/* product images 
-.paper1 {
-   margin-left:50px ; 
-   margin-top: 20px; 
-}
-
-.catering {
-    position: absolute; 
-    left: 350px;
-    bottom: 160px;
-}
-
-.refuse {
-    position: absolute; 
-    left: 660px;
-    bottom: 160px;
-
-}
-
-.chemical {
-    position: absolute; 
-    left: 960px;
-    bottom: 160px;
-
-}
-
- .ancillary {
-    position: absolute;
-   margin-left: 50px;
-}
-
-*/
-
-/*#glove {
-
-}
-
-#soap {
-
-}
-*/
-
-
-.image1 {
+/*images text*/
+.imgmaintxt {
     display : flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 
-.image4 {
-    display : flex;
-    justify-content: flex-end;
+.imgtext1 {
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+}
+.imgtext2{
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+} 
+.imgtext3 {
+   
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.imgtext4 {
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
     
 }
 
-    
+.imgmaintxt2 {
+    display : flex;
+    justify-content: space-between;
+}
 
-/* contact box going across page */
+
+.imgtext5 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+   
+
+.imgtext6 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;    
+}
+
+.imgtext7 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;    
+}
+
+
+
+ /* product images */
+
+ .productsimg {
+    display : flex;
+    justify-content: space-evenly;
+    /* box-sizing: border-box; */
+ }
+
+
+/* contact box across page */
 .info {
     background-color:rgb(200, 200, 200);
     width : 100%;
@@ -411,38 +364,21 @@ h2 {
     text-transform: uppercase;
     margin-left: 45px;
 }
-/* .man2 { 
-    display : flex;
-    justify-content: center;
-
-/* } */
-
-/*.man3 {
-    display : flex;
-    justify-content: flex-end;
-    margin-right: 50px; 
-}*/
-
-
-
-
-
-
-
-
 
 /* contact page */
 .contactpage {
     color: black;
-    font-weight: 800;
+    font-weight: bold;
     text-transform:capitalize;
+    font-size: 18px;
+     text-align: center;
 }
 
 .contactp {
     text-align: center;
     font-family: lato;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /*#map {
@@ -481,7 +417,7 @@ h2 {
        font-size: 13px;
        color: black;
        display: inline-block;
-       margin-left: 220px;
+       margin-left: 260px;
        color: white;
    }
    
