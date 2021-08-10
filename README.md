@@ -64,7 +64,7 @@ My testing for the project consisted of alot of trial and error, what i would do
 
 A key test I undertook was suggested by my mentor at the midway point of the project, we talked through certain areas and inspected the code and was suggested to me i should look at flexboxfroggy.com, this was key because it showed me an easy way to space out the images i was applying to the products section.
 
-Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. 
+Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. it was of huge benefit when making the nav bar far more responsive, when i would inspect the page to see the point of where the site would become distorted the first thing to change was the nav bar because i had it set out on margin at first, but with flexfroggy i came to realise i can do this a different way.
 
 I went back through the love running section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
 
@@ -88,13 +88,34 @@ I went back through the love running section of the course and looked through th
 
 # issues and bugs
 
-### google maps 
+### Google Maps 
 * A bug where when the link for the location of Akta Cleaning Supplies wouldnt load in the page when applied, i tried the iframe used in the coders coffeehouse and this worked perfect, with abit of trial and error this was resolved.
 
-### navigation bar
+### Navigation Bar
 issue where how i had it set up with using margin the nav bar wasnt very responsive, i changed this by using flex which then brought up another issue relating to padding.
 
 i had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
+
+this has made the the page that is active have a more minmal color around its name and also when hovered over it is more neat, this is to counteract the words beings out of line which adding in display: flex; has caused
+
+### Footer 
+same issue asabove, footer was not responsive, when screensize would change text would bcome very distorted and change position, 
+
+having a constant issue of text aligning when lined up to the left if looks distorted e.g <br>
+
+Monday 08:00 AM - 05:00 PM
+<br>
+Tuesday 08:00 AM - 05:00 PM
+Wednesday 08:00 AM - 05:00 PM
+Thursday 08:00 AM - 05:00 PM
+Friday 08:00 AM - 05:00 PM
+
+when lined up to the right it looks uneven e.g 
+  Monday     08:00 AM - 05:00 PM
+  Tuesday    08:00 AM - 05:00 PM
+ Wednesday   08:00 AM - 05:00 PM
+ Thursday    08:00 AM - 05:00 PM
+   Friday    08:00 AM - 05:00 PM
 
 # credits
 
