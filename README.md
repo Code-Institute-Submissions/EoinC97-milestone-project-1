@@ -1,3 +1,8 @@
+# Akta Cleaning Supplies
+
+view live project here
+
+
 
 # Introduction
 
@@ -29,7 +34,67 @@ Wireframes were created using figma.com workspace, which provided an excellant u
  (https://crimson-puma-nbyzz3f4.ws-eu13.gitpod.io/images/figma1.png)
 
 
+# Development
 
+# features
+
+## design features 
+
+Each page of the site features a consitent Logo, Footer & Navigation system
+
+* the header contains a logo which is placed in the centre of the page (when clicked brings you back to the homepage), underneath this a nav bar is available with four clickable sections, when hovered over they change color and the active page is shown with a solid color surrounding its text.
+
+### home page 
+the home page contains a background image with a text overlay, some customer review text and a contact button.
+
+on smaller screens the text overlay and contact button is removed.
+
+* ## Background image
+spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
+
+### products page
+
+### about us page
+
+### contact page
+
+# Testing
+
+My testing for the project consisted of alot of trial and error, what i would do is try to do different things and see how they worked, i would go back to the course work to specific sections relating to the code I was writing for the project, I would try little bits of code in the coders coffeehouse code window and also redo some challenges with the code i was using for the project, commenting sections of code in and out was also very helpful to pinpoint certains errors or anything i wasnt happy with.
+
+A key test I undertook was suggested by my mentor at the midway point of the project, we talked through certain areas and inspected the code and was suggested to me i should look at flexboxfroggy.com, this was key because it showed me an easy way to space out the images i was applying to the products section.
+
+Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. 
+
+I went back through the love running section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
+
+
+
+
+# Technologies Used
+
+## Main Languages Used
+
+* HTML5
+* CSS
+
+## Frameworks, Libraries & Programs Used
+
+* Font Awesome
+
+* Figma
+
+* Flexbox Froggy
+
+# issues and bugs
+
+### google maps 
+* A bug where when the link for the location of Akta Cleaning Supplies wouldnt load in the page when applied, i tried the iframe used in the coders coffeehouse and this worked perfect, with abit of trial and error this was resolved.
+
+### navigation bar
+issue where how i had it set up with using margin the nav bar wasnt very responsive, i changed this by using flex which then brought up another issue relating to padding.
+
+i had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
 
 # credits
 
