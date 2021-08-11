@@ -17,7 +17,7 @@ body {
 
 
 nav {
-    background-color: rgb(200, 200, 200);   
+    background-color: rgb(190, 190, 190);   
     padding: 0.8rem;
     border: 1px solid gray;
     border-bottom: none; 
@@ -33,16 +33,53 @@ nav > a {
     color: black;
     margin: 1px;
     font-weight: bold; 
-    
-
 }
 
 nav > a:hover {
     color: black;
-    background-color:rgb(78,202,245);
-    padding-left: 5px ;
-    padding-right: 5px;
+    background-color:rgb(220,220,220); 
 }
+
+.navhmbgr {
+    display: none;
+}
+
+@media (max-width: 400px) {
+
+   
+
+    #logo {
+        margin-left: 100px;
+        width: 200px;
+    }
+
+
+    .navhmbgr {
+       
+        display: block;    
+    }
+
+    nav > a {
+        display: none;
+    }
+
+    .text-box{
+       display: none;
+    }
+
+    .button {
+        font-size: 10px;    
+    }
+
+    /* .btnnav5 {
+        
+
+
+    } */
+
+}
+    
+
 
 .gotopbtn {
     position: fixed;
@@ -67,9 +104,8 @@ header {
 
 
 .active {
-    background-color:rgb(78,202,245);
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color:rgb(220,220,220);
+    /* padding: 1px; */
     border: 1px solid rgb(75, 74, 74);
 }
 
@@ -120,6 +156,13 @@ header {
     margin-top:30px; 
     color: white;
 }
+
+.button:hover {
+    background-color:rgb(220,220,220);
+    color: black;
+}
+
+
 
 /* TEXT UNDER IMAGE */
 
@@ -319,13 +362,16 @@ h2 {
     margin-right: 150px;
     text-decoration: none;
     border: 3px solid white;
-    background-color: rgb(78, 202, 245);
+    background-color: gray;
     text-transform: uppercase;
     font-weight: 800;
     padding: 5px;
     margin-top:30px;
-    color: white;
-
+    color: black;
+}
+.btnproduct:hover {
+    background-color:rgb(220,220,220);
+    color: black;
 }
 
 /* ABOUT US*/
@@ -394,30 +440,28 @@ h2 {
 
 
 
-/*  footer */
+/*  FOOTER */
+
 .contact-boxes-container {
-   
     display: flex;
     justify-content: space-evenly;
-    
    }
    
-    /* address */
+    /* ADDRESS*/
+
    .contact-box-left {
        padding-top: 20px;
-       font-size: 13px;
-        
+       font-size: 13px;    
    }
    
-   /* opening hours*/
+   /* OPENING HOURS */
+
    .contact-box-right {
        padding-top: 20px;
-       font-size: 13px; 
-       
-       
+       font-size: 13px;     
    }
    
-   /*phone*/
+   /* PHONE */
    .contact-box-center {
        padding-top: 20px;
        font-size: 13px;
