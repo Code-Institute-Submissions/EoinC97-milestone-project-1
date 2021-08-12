@@ -1,5 +1,9 @@
 # Akta Cleaning Supplies
 
+![GitHub Logo](/images/logo.png)
+
+image here
+
 view live project here
 
 
@@ -19,47 +23,128 @@ This is the first of four Milestone Projects that the developer must complete du
 The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
 
+<br>
 
 # Ideal User Demographic 
 The ideal user demographic would be the hospitality industry, the fitness industry and education to name a few.
 
 These customers for example would require a high volume of cleaning on a regular bases and with that comes the need for a high volume of cleaing supplies and materials. 
 
+<br>
+
 
 # User Stories
+
+### New/Potential Customer Goals
+
+1. As a new customer i want to eaily navigate through the website to find relevant content effortlessly
+
+2. As a new customer i want to learn more about the companies background.
+
+3. As a new customer i want to see what products are available.
+
+4. As a new customer i want to know where the business is located and the best way to get in contact 
+<br>
 
 # Wireframe
 Wireframes were created using figma.com workspace, which provided an excellant user experience.
 
-
+home page
 ![GitHub Logo](assets/images/figma1.png)
+<br>
+<br>
+<br>
 
+products page
+![GitHub Logo](assets/images/figma4.png)
+<br>
+<br>
+<br>
+about us page
+![GitHub Logo](assets/images/figma2.png)
+<br>
+<br>
+<br>
+contact page
+![GitHub Logo](assets/images/figma3.png)
 
+<br>
+<br>
 
 
 # Development
 
-# features
+In order to create a comprehensive and informative website, I worked closely with the company to distinguish what exactly they were looking for in a website as they were  unhappy with the current one they had. 
+<br>
 
-## design features 
+The main aim of the site was to be easy to navigate, the current site had far to many pages and was quite repetitive, I was tasked with trying to build something that could with some more experience be used as the companies official site.
+
+
+### strategy
+
+the website will focus on the following audiences:
+
+## Roles
+*  current Akta customers
+* previous Akta customers 
+*  prospective Akta customers
+
+## Demographic
+* education sector 
+* hospitality industry
+* fitness industry
+
+### This website needs to enable AKTA to:
+* develop an online presence
+* Provide an easily navigable website for users to find relevant information:
+* product information
+
+### This website needs to enable the USER to:
+#### Retrieve desired infortmation:
+*  contact information 
+* find product information
+* learn more about the company
+
+
+
+
+<br>
+
+# Features
+
+<br>
+
+## Design Features 
 
 Each page of the site features a consitent Logo, Footer & Navigation system
 
 * the header contains a logo which is placed in the centre of the page (when clicked brings you back to the homepage), underneath this a nav bar is available with four clickable sections, when hovered over they change color and the active page is shown with a solid color surrounding its text.
 
-### home page 
-the home page contains a background image with a text overlay, some customer review text and a contact button.
+<br>
+
+### Home Page 
+The home page contains a background image with a text overlay, some customer review text and a contact button.
 
 on smaller screens the text overlay and contact button is removed.
 
-* ## Background image
-spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
+* ## Background Image
+Spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
 
-### products page
+<br>
 
-### about us page
+### Products Page
+<br>
+
+### About Us Page
+<br>
+
+
 
 ### contact page
+<br>
+
+<br>
+
 
 # Testing
 
@@ -71,8 +156,7 @@ Flexbox froggy had 24 mini challenges to run through which explained how to appl
 
 I went back through the love running section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
 
-
-
+<br>
 
 # Technologies Used
 
@@ -89,7 +173,8 @@ I went back through the love running section of the course and looked through th
 
 * Flexbox Froggy
 
-# issues and bugs
+
+# Issues and Bugs
 
 ### Google Maps 
 * A bug where when the link for the location of Akta Cleaning Supplies wouldnt load in the page when applied, i tried the iframe used in the coders coffeehouse and this worked perfect, with abit of trial and error this was resolved.
@@ -109,8 +194,11 @@ having a constant issue of text aligning when lined up to the left if looks dist
 Monday 08:00 AM - 05:00 PM
 <br>
 Tuesday 08:00 AM - 05:00 PM
+<br>
 Wednesday 08:00 AM - 05:00 PM
+<br>
 Thursday 08:00 AM - 05:00 PM
+<br>
 Friday 08:00 AM - 05:00 PM
 
 when lined up to the right it looks uneven e.g 
@@ -120,11 +208,13 @@ when lined up to the right it looks uneven e.g
  Thursday    08:00 AM - 05:00 PM
    Friday    08:00 AM - 05:00 PM
 
-# credits
+# Credits
 
 https://www.w3schools.com/
 
 youtube.com
 
 http://flexboxfroggy.com/
+
+Akta Cleaning
 
