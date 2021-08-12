@@ -26,12 +26,15 @@ The ideal user demographic would be the hospitality industry, the fitness indust
 These customers for example would require a high volume of cleaning on a regular bases and with that comes the need for a high volume of cleaing supplies and materials. 
 
 
+# User Stories
+
 # Wireframe
 Wireframes were created using figma.com workspace, which provided an excellant user experience.
 
 
- ![image of wireframe]
- (https://crimson-puma-nbyzz3f4.ws-eu13.gitpod.io/images/figma1.png)
+![GitHub Logo](assets/images/figma1.png)
+
+
 
 
 # Development
