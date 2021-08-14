@@ -25,6 +25,8 @@ The main requirements were to make a responsive and static website with a minimu
 
 <br>
 
+# UX
+
 # Ideal User Demographic 
 The ideal user demographic would be the hospitality industry, the fitness industry and education to name a few.
 
@@ -47,26 +49,41 @@ These customers for example would require a high volume of cleaning on a regular
 <br>
 
 # Wireframe
-Wireframes were created using figma.com workspace, which provided an excellant user experience.
+Wireframes were created using figma.com workspace, which provided an excellant user experience. 
 
-home page
+This was the end product i came to on my design, I have a second option in which I created which I will put below.
+
+Home Page
 ![GitHub Logo](assets/images/figma1.png)
 <br>
 <br>
 <br>
 
-products page
+Products Page
 ![GitHub Logo](assets/images/figma4.png)
 <br>
 <br>
 <br>
-about us page
+About Us Page
 ![GitHub Logo](assets/images/figma2.png)
 <br>
 <br>
 <br>
-contact page
+Contact Page
 ![GitHub Logo](assets/images/figma3.png)
+
+
+### Option 2
+This was the first design I came up with, I realised that to look more professional I would have to make the logo look better on the nav bar and also it would have to be on each page to stay consistent, so I went back to the drawing board and came up with my second option which i decided to go ahead with.
+
+<br>
+
+![GitHub Logo](assets/images/option2(1).png)
+![GitHub Logo](assets/images/option2(2).png)
+![GitHub Logo](assets/images/option2(3).png)
+![GitHub Logo](assets/images/option2(4).png)
+
+
 
 <br>
 <br>
@@ -82,7 +99,7 @@ The main aim of the site was to be easy to navigate, the current site had far to
 
 ### strategy
 
-the website will focus on the following audiences:
+The website will focus on the following audiences:
 
 ## Roles
 *  current Akta customers
@@ -110,6 +127,26 @@ the website will focus on the following audiences:
 
 <br>
 
+# Design
+### Color Scheme
+the main colors used throughout the website are a mixture of Gray, White, and a Light Blue.
+
+the light blue color i have chosen is to match to color used on the logo, i have put certain elements on the site in this color including some headings and block elements.
+
+### Typography 
+Arial, Helvetica, sans-serif
+The pairing of fonts Arial and Helvetica is used throughout the website with Sans Serif as the fallback font in case of any import failure.
+
+<br>
+
+### Imagery
+The selected images are in relation to the type of company akta is, so cleaning supplies were used and images related to cleaning.
+
+
+All imagery provides alternative text to be used in the event that the element cannot be rendered.
+
+<br>
+
 # Features
 
 <br>
@@ -123,9 +160,11 @@ Each page of the site features a consitent Logo, Footer & Navigation system
 <br>
 
 ### Home Page 
-The home page contains a background image with a text overlay, some customer review text and a contact button.
+* The home page contains a background image with text overlay within a banner, the image occupies 100% of the page width some customer review text and a contact button.
 
-on smaller screens the text overlay and contact button is removed.
+*
+
+on smaller screens the text overlay and contact button is moved into the center.
 
 * ## Background Image
 Spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
@@ -217,4 +256,6 @@ youtube.com
 http://flexboxfroggy.com/
 
 Akta Cleaning
+
+Background image was taken from the AKTA website and url link used in css code.
 
