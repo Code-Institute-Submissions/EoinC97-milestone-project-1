@@ -1,10 +1,12 @@
 # Akta Cleaning Supplies
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](assets/images/figma1.png)
 
 image here
 
-view live project here
+view live project here 
+https://eoinc97.github.io/milestone-project-1/
+
 
 
 
@@ -140,7 +142,7 @@ The pairing of fonts Arial and Helvetica is used throughout the website with San
 <br>
 
 ### Imagery
-The selected images are in relation to the type of company akta is, so cleaning supplies were used and images related to cleaning.
+The selected images are in relation to the type of company AKTA is, so cleaning supplies were used and images related to cleaning.
 
 
 All imagery provides alternative text to be used in the event that the element cannot be rendered.
@@ -234,20 +236,22 @@ I also went back through the "Love Running" section of the course and looked thr
 * A bug where when the link for the location of Akta Cleaning Supplies wouldnt load in the page when applied, i tried the iframe used in the coders coffeehouse and this worked perfect, with abit of trial and error this was resolved.
 
 ### Navigation Bar
-issue where how i had it set up with using margin the nav bar wasnt very responsive, i changed this by using flex which then brought up another issue relating to padding.
+* issue where how i had it set up with using margin the nav bar wasnt very responsive, i changed this by using flex which then brought up another issue relating to padding.
 
-I had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
+* I had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
 
-this has made the the page that is active have a more minmal color around its name and also when hovered over it is more neat, this is to counteract the words beings out of line which adding in display: flex; has caused.
+* this has made the the page that is active have a more minmal color around its name and also when hovered over it is more neat, this is to counteract the words beings out of line which adding in display: flex; has caused.
 
 ### Footer 
-Same issue as above, footer was not responsive, when screensize would change text would bcome very distorted and change position, I was also
+* Same issue as above, footer was not responsive, when screensize would change text would bcome very distorted and change position, I was also
 having a constant issue of text aligning when lined up to the left it looks distorted, the days that are spelt longer was pushing the time further away if i had text aligned to the left when aligned right this wasnt the case.
 
 ### Media Queries
-issue where on media queries if certain properties were used that were being reused and changed from the original css the changes would not implement at smaller screen sizes, e.g if font size was used in a class then the use of a smaller font wouldnt be implemented in the media querie.
+* issue where on media queries if certain properties were used that were being reused and changed from the original css the changes would not implement at smaller screen sizes, e.g if font size was used in a class then the use of a smaller font wouldnt be implemented in the media querie.
 
-I rectified this by adding !important to overide the inline css so the changes could be made to make my site more responsive at smaller screen sizes.
+* I rectified this by adding !important to overide the inline css so the changes could be made to make my site more responsive at smaller screen sizes. This was the only solution I could come up with, I spent alot of time going through videos and articles not finding exaclty what i needed, 
+
+
  <br>
 
 
