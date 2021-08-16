@@ -36,13 +36,11 @@ nav > a {
 }
 
 nav > a:hover {
-    color: black;
-    background-color:rgb(220,220,220); 
+    color: blue;
+     
 }
 
-.navhmbgr {
-    display: none;
-}
+
 
 
 
@@ -70,8 +68,7 @@ header {
 
 .active {
     background-color:rgb(220,220,220);
-    /* padding: 1px; */
-    border: 1px solid rgb(75, 74, 74);
+    
 }
 
 /* BACKGROUND IMAGE */
@@ -132,15 +129,7 @@ header {
 
 /* TEXT UNDER IMAGE */
 
-.main {
-    color:black;
-    text-align: left;
-    margin-left: 45px;
-    margin-right: 45px;
-    font-size: 18px;
-    margin-bottom: 50px;
-   
-}
+
 
 h1 {
     color:black;
@@ -220,12 +209,14 @@ h2 {
 
 .imgmaintxt {
     display : flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 .imgtext1 {
     
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;
    
@@ -233,49 +224,54 @@ h2 {
 }
 .imgtext2{
     
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;
+    margin-right: 20px;
    
 } 
 .imgtext3 {
    
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;
+    
     
 }
 .imgtext4 {
     
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;
+    margin-right: 90px;
     
 }
 
 .imgmaintxt2 {
     display : flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
 .imgtext5 {
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;
 }
    
 
 .imgtext6 {
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-weight: bold;    
 }
 
 .imgtext7 {
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
-    font-weight: bold;    
+    font-weight: bold;   
+    margin-right: 50px; 
 }
 
 
@@ -283,10 +279,15 @@ h2 {
 
  .productsimg {
     display : flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    
+    margin-left: 20px;
  }
 
+  .mediaimgtxt {
+     display: none;
+   
+ }
 
 /* CONTACT BOX ACROSS PAGE */
 .info {
@@ -362,6 +363,14 @@ h2 {
     margin-left: 45px;
 }
 
+.main {
+    color:black;
+    text-align: left;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    margin-bottom: 50px; 
+}
 /* CONTACT PAGE */
 
 
@@ -491,24 +500,24 @@ h2 {
    .one {
        display: block !important;
        width: 90% !important;
-       font-size: 9px !important;
-       margin-left: 7px !important;
+       font-size: 11px !important;
+       margin-left: 11px !important;
        text-align: center !important;
    }
 
    .two {
        display: block !important;
        width: 90% !important;
-       font-size: 9px !important; 
-       margin-left: 7px !important;
+       font-size: 11px !important; 
+       margin-left: 11px !important;
        text-align: center !important;
    }
 
    .three {
        display: block !important;
        width: 90% !important;
-       font-size: 9px !important;
-       margin-left: 7px !important;
+       font-size: 11px !important;
+       margin-left: 11px !important;
        text-align: center !important;
    }
    
@@ -546,6 +555,63 @@ h2 {
         height: 220px !important;
         
          
+    }
+
+
+    /* products */
+    .info {
+        display: none;
+    }
+
+    .productsimg {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+     .mediaimgtxt {
+         color: blue !important;
+    
+    }
+
+    .imgmaintxt2 {
+    display: none;
+ 
+} 
+
+    .imgmaintxt {
+     display: none ;
+}
+
+
+    /* about us */
+    .main {
+ 
+        font-size: 14px !important;
+         
+    }
+    
+    .ptext {
+        display: none;
+
+    }
+
+.man1 {
+    display: none;
+}
+
+.aboutush1 {
+    display: none;
+}
+
+
+
+
+
+    /* contact page */
+
+    #map {
+        height: 40vh !important;
     }
  }
     
