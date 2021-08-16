@@ -189,11 +189,24 @@ Spreads out over 100% of the page width, the text overlay has a light blue backg
 
 My testing for the project consisted of alot of trial and error, what i would do is try to do different things and see how they worked, i would go back to the course work to specific sections relating to the code I was writing for the project, I would try little bits of code in the coders coffeehouse code window and also redo some challenges with the code i was using for the project, commenting sections of code in and out was also very helpful to pinpoint certains errors or anything i wasnt happy with.
 
+<br>
+
+I would also for some sections, use the "try it yourself" section on w3schools.com, this made it alot easier for me to then implement into my own work the code i had just been practicing ehich I found extremely helpful and informative.
+
+<br>
+
+
 A key test I undertook was suggested by my mentor at the midway point of the project, we talked through certain areas and inspected the code and was suggested to me i should look at flexboxfroggy.com, this was key because it showed me an easy way to space out the images i was applying to the products section.
+
+<br>
+
 
 Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. it was of huge benefit when making the nav bar far more responsive, when i would inspect the page to see the point of where the site would become distorted the first thing to change was the nav bar because i had it set out on margin at first, but with flexfroggy i came to realise i can do this a different way.
 
-I went back through the love running section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
+<br>
+
+
+I also went back through the "Love Running" section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
 
 <br>
 
@@ -212,6 +225,8 @@ I went back through the love running section of the course and looked through th
 
 * Flexbox Froggy
 
+* W3Schools
+
 
 # Issues and Bugs
 
@@ -221,31 +236,21 @@ I went back through the love running section of the course and looked through th
 ### Navigation Bar
 issue where how i had it set up with using margin the nav bar wasnt very responsive, i changed this by using flex which then brought up another issue relating to padding.
 
-i had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
+I had padding around each option which pushed the writing down so the names of the sections were not in line with eachother, i rectified this by changing the padding and the margins used. 
 
-this has made the the page that is active have a more minmal color around its name and also when hovered over it is more neat, this is to counteract the words beings out of line which adding in display: flex; has caused
+this has made the the page that is active have a more minmal color around its name and also when hovered over it is more neat, this is to counteract the words beings out of line which adding in display: flex; has caused.
 
 ### Footer 
-same issue asabove, footer was not responsive, when screensize would change text would bcome very distorted and change position, 
+Same issue as above, footer was not responsive, when screensize would change text would bcome very distorted and change position, I was also
+having a constant issue of text aligning when lined up to the left it looks distorted, the days that are spelt longer was pushing the time further away if i had text aligned to the left when aligned right this wasnt the case.
 
-having a constant issue of text aligning when lined up to the left if looks distorted e.g <br>
+### Media Queries
+issue where on media queries if certain properties were used that were being reused and changed from the original css the changes would not implement at smaller screen sizes, e.g if font size was used in a class then the use of a smaller font wouldnt be implemented in the media querie.
 
-Monday 08:00 AM - 05:00 PM
-<br>
-Tuesday 08:00 AM - 05:00 PM
-<br>
-Wednesday 08:00 AM - 05:00 PM
-<br>
-Thursday 08:00 AM - 05:00 PM
-<br>
-Friday 08:00 AM - 05:00 PM
+I rectified this by adding !important to overide the inline css so the changes could be made to make my site more responsive at smaller screen sizes.
+ <br>
 
-when lined up to the right it looks uneven e.g 
-  Monday     08:00 AM - 05:00 PM
-  Tuesday    08:00 AM - 05:00 PM
- Wednesday   08:00 AM - 05:00 PM
- Thursday    08:00 AM - 05:00 PM
-   Friday    08:00 AM - 05:00 PM
+
 
 # Credits
 
