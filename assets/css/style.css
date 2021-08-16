@@ -10,7 +10,8 @@ body {
     margin-top: 0px; 
     margin-right: auto; 
     margin-bottom: 0px;  
-    margin-left: 500px; 
+    margin-left: 280px;
+    width: 40%;
     background-color: white;
 }
 
@@ -271,7 +272,7 @@ h2 {
     text-align: left;
     text-transform: capitalize;
     font-weight: bold;   
-    margin-right: 50px; 
+    margin-right: 100px; 
 }
 
 
@@ -283,11 +284,11 @@ h2 {
     justify-content: space-evenly;
     margin-left: 20px;
  }
-
-  .mediaimgtxt {
+ .productlist {
      display: none;
-   
  }
+
+
 
 /* CONTACT BOX ACROSS PAGE */
 .info {
@@ -453,13 +454,55 @@ h2 {
 
    
 
-   /* media queries */
+   /* media queries  tablet and mobile devices */
 
-@media screen and (max-width: 800px) {
-    #logo {
-        display: none;
+ @media screen and (max-width: 800px) {
+    .text-box {
+        font-size: 12px !important;
+        text-align: center !important;
     }
-   }
+
+    .button {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
+    .imgmaintxt2 {
+        font-size: 12px !important; 
+    } 
+    
+    .imgmaintxt {
+     font-size: 12px !important;
+         
+    }
+
+    .imgtext4 {
+        margin-right: 20px !important;
+    }
+    .imgtext7 {
+        margin-right: 20px !important;
+    }
+
+    #map {
+        height:40vh !important; 
+    }
+
+    .info-text-box1 {
+        font-size: 20px !important;
+
+    }
+
+    .btnproduct {
+        margin-right: 60px !important;
+    }
+
+    .productsimg {
+        margin-left: 30px !important;
+    }
+
+    
+    
+   } 
 
 
 
@@ -577,10 +620,7 @@ h2 {
         align-items: center;
     }
 
-     /* .mediaimgtxt {
-         color: blue !important;
-    
-    } */
+ 
 
     .imgmaintxt2 {
     display: none;
@@ -590,6 +630,9 @@ h2 {
     .imgmaintxt {
      display: none ;
 }
+
+
+    
 
 
     /* about us */
