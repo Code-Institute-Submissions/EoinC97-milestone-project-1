@@ -455,6 +455,14 @@ h2 {
 
    /* media queries */
 
+@media screen and (max-width: 800px) {
+    #logo {
+        display: none;
+    }
+   }
+
+
+
  @media screen and (max-width: 600px) {
 
     #logo {
@@ -569,10 +577,10 @@ h2 {
         align-items: center;
     }
 
-     .mediaimgtxt {
+     /* .mediaimgtxt {
          color: blue !important;
     
-    }
+    } */
 
     .imgmaintxt2 {
     display: none;
@@ -587,22 +595,25 @@ h2 {
     /* about us */
     .main {
  
-        font-size: 14px !important;
+        font-size: 16px !important;
          
+    }
+    .man1 {
+        display : none;
+       
+        
+        
     }
     
     .ptext {
-        display: none;
-
+        display : none;
+        
+        
     }
 
-.man1 {
+    .aboutush1 {
     display: none;
-}
-
-.aboutush1 {
-    display: none;
-}
+   }
 
 
 
