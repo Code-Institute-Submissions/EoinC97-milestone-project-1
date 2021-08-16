@@ -44,99 +44,6 @@ nav > a:hover {
     display: none;
 }
 
-/* media queries */
-@media screen and (max-width: 600px) {
-    #logo {
-        margin-left: 100px;
-        width: 200px;
-
-    }
-
-
-    .navhmbgr {
-        display: block;    
-    }
-
-    nav > a {
-        display: none;
-    }
-
-    .text-box{
-       display: none;
-    }
-
-    .button {
-        font-size: 10px !important;
-        margin-right: 140px !important;
-        margin-top: 20px !important;
-    }
-
-    #call {
-        height: 100px;
-    }
-
-    .call-box {
-        margin-top: 35px !important;
-        height: 70px !important;
-    }
-
-    
-   h1 {
-        font-size: 22px !important; 
-   }
-
-   h3 {
-       margin: 0 auto !important;
-   }
-
-   .one {
-       display: block !important;
-       width: 90% !important;
-       font-size: 9px !important;
-       margin-left: 7px !important;
-   }
-
-   .two {
-       display: block !important;
-       width: 90% !important;
-       font-size: 9px !important; 
-       margin-left: 7px !important;
-   }
-
-   .three {
-       display: block !important;
-       width: 90% !important;
-       font-size: 9px !important;
-       margin-left: 7px !important;
-   }
-
-    
-
-       .contact-box-left {
-        font-size: 8px !important;    
-    }
-    
-   
- 
-    .contact-box-right {
-        font-size: 8px !important;     
-    }
-    
-   
-    .contact-box-center {
-        font-size: 8px !important;
-      
-    }
-
-    footer {
-        height: 100px !important;
-    }
-
-
-
-
-}
-    
 
 
 .gotopbtn {
@@ -308,8 +215,6 @@ h2 {
 
 
 /* PRODUCTS PAGE */
-
-
 
 /*IMAGES TEXT*/
 
@@ -486,7 +391,7 @@ h2 {
 
 
 
-/*  FOOTER */
+ /*  FOOTER */
 
 .contact-boxes-container {
     display: flex;
@@ -538,3 +443,109 @@ h2 {
    }
 
    
+
+   /* media queries */
+
+ @media screen and (max-width: 600px) {
+
+    #logo {
+        margin-top: 0px !important; 
+        margin-right: 0 !important; 
+        margin-bottom: 0px !important;  
+        margin-left: 80px !important; 
+        width: 60%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
+    nav > a {
+        font-size: 12px !important;
+    }
+
+    .text-box{
+       display: none;
+    }
+
+    .button {
+       display: none;
+    }
+
+    
+
+    .call-box {
+        display: none;
+    }
+
+    
+   h1 {
+        font-size: 22px !important; 
+   }
+
+   h3 {
+       margin: 0 auto !important;
+   }
+
+   .one {
+       display: block !important;
+       width: 90% !important;
+       font-size: 9px !important;
+       margin-left: 7px !important;
+       text-align: center !important;
+   }
+
+   .two {
+       display: block !important;
+       width: 90% !important;
+       font-size: 9px !important; 
+       margin-left: 7px !important;
+       text-align: center !important;
+   }
+
+   .three {
+       display: block !important;
+       width: 90% !important;
+       font-size: 9px !important;
+       margin-left: 7px !important;
+       text-align: center !important;
+   }
+   
+
+   .contact-boxes-container {
+    display: block !important;
+    text-align: center; 
+
+   }
+    
+   
+
+    .contact-box-left {
+        font-size: 10px !important; 
+    }
+              
+   
+ 
+    .contact-box-right {
+        font-size: 10px !important;          
+    }
+    
+   
+    .contact-box-center {
+        font-size: 10px !important;
+    }
+
+    table {
+         display: flex;
+         justify-content: center;
+
+    }
+
+    footer {
+        height: 220px !important;
+        
+         
+    }
+ }
+    
