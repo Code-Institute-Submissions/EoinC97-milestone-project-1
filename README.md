@@ -268,6 +268,11 @@ having a constant issue of text aligning when lined up to the left it looks dist
 
  <br>
 
+ ## Validation
+
+ * Ran through validation with mentor on final call, we worked through any errors that came up and we left the call happy 
+ * Validator used was https://validator.w3.org/#validate_by_input   https://jigsaw.w3.org/css-validator/
+
 
 
 # Credits

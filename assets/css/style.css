@@ -10,8 +10,8 @@ body {
     margin-top: 0px; 
     margin-right: auto; 
     margin-bottom: 0px;  
-    margin-left: 300px;
-    width: 35%;
+    margin-left: 400px;
+    width: 25%;
     background-color: white;
 }
 
@@ -156,7 +156,7 @@ h3 {
     border-bottom: 1px solid rgb(163, 163, 163) ;
     width: 75%;
     margin-left: 160px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #review {
@@ -176,7 +176,7 @@ h3 {
     padding-right: 20px;
     font-size: 16px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .two {
@@ -186,7 +186,7 @@ h3 {
     padding-right: 20px;
     font-size: 16px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
@@ -196,7 +196,7 @@ h3 {
     width:20%;
     font-size: 16px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -624,23 +624,10 @@ h2 {
         flex-direction: column !important;
         align-items: center;
     }
-
- 
-
-    .imgmaintxt2 {
-    display: none;
- 
-} 
-
-    .imgmaintxt {
-     display: none ;
-}
-
-
     
 
 
-    /* about us */
+    /* ABOUT US */
     .main {
  
         font-size: 16px !important;
@@ -667,7 +654,7 @@ h2 {
 
 
 
-    /* contact page */
+    /* CONTACT PAGE */
 
     #map {
         height: 40vh !important;
