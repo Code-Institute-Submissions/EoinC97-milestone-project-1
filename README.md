@@ -1,11 +1,15 @@
 # Akta Cleaning Supplies
 
-![GitHub Logo](assets/images/figma1.png)
+![GitHub Logo](assets/images/deviceview.png)
 
-image here
 
-view live project here 
-https://eoinc97.github.io/milestone-project-1/
+
+ 
+
+
+[View Live Project](https://eoinc97.github.io/milestone-project-1/)
+
+<br>
 
 
 
@@ -55,24 +59,30 @@ Wireframes were created using figma.com workspace, which provided an excellant u
 
 This was the end product i came to on my design, I have a second option in which I created which I will put below.
 
-Home Page
+### Home Page
 ![GitHub Logo](assets/images/figma1.png)
 <br>
 <br>
 <br>
 
-Products Page
+### Products Page
 ![GitHub Logo](assets/images/figma4.png)
 <br>
 <br>
 <br>
-About Us Page
+
+### About Us Page
 ![GitHub Logo](assets/images/figma2.png)
 <br>
 <br>
 <br>
-Contact Page
+
+### Contact Page
 ![GitHub Logo](assets/images/figma3.png)
+
+<br>
+
+A couple of changes have had to be made since making these mockups, when going through media queries some elements on smaller screens did not look as I had hoped, so during the process come elements have been removed mainly on mobile devices.
 
 
 ### Option 2
@@ -164,16 +174,15 @@ Each page of the site features a consitent Logo, Footer & Navigation system
 ### Home Page 
 * The home page contains a background image with text overlay within a banner, the image occupies 100% of the page width some customer review text and a contact button.
 
-*
+* On smaller screens the text overlay and contact button is removed and the image spanning across the screen becomes slightly smaller.
 
-on smaller screens the text overlay and contact button is moved into the center.
-
-* ## Background Image
-Spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
+### Background Image
+* Spreads out over 100% of the page width, the text overlay has a light blue background and on far right of page there is a call button with a white border surrounding it, when clicked this brings us to the contact page.
 
 <br>
 
 ### Products Page
+
 <br>
 
 ### About Us Page
@@ -181,7 +190,7 @@ Spreads out over 100% of the page width, the text overlay has a light blue backg
 
 
 
-### contact page
+### Contact Page
 <br>
 
 <br>
@@ -189,26 +198,28 @@ Spreads out over 100% of the page width, the text overlay has a light blue backg
 
 # Testing
 
-My testing for the project consisted of alot of trial and error, what i would do is try to do different things and see how they worked, i would go back to the course work to specific sections relating to the code I was writing for the project, I would try little bits of code in the coders coffeehouse code window and also redo some challenges with the code i was using for the project, commenting sections of code in and out was also very helpful to pinpoint certains errors or anything i wasnt happy with.
+* My testing for the project consisted of alot of trial and error, what i would do is try different things and see how they worked, I would go back to the course work to specific sections relating to the code I was writing for the project.
+
+* I would try little bits of code in the coders coffeehouse code window and also redo some challenges with the code i was using for the project, commenting sections of code in and out was also very helpful to pinpoint certains errors or anything i wasnt happy with.
 
 <br>
 
-I would also for some sections, use the "try it yourself" section on w3schools.com, this made it alot easier for me to then implement into my own work the code i had just been practicing ehich I found extremely helpful and informative.
-
-<br>
-
-
-A key test I undertook was suggested by my mentor at the midway point of the project, we talked through certain areas and inspected the code and was suggested to me i should look at flexboxfroggy.com, this was key because it showed me an easy way to space out the images i was applying to the products section.
+* I would also for some sections, use the "try it yourself" section on w3schools.com, this made it alot easier for me to then implement into my own work the code i had just been practicing ehich I found extremely helpful and informative.
 
 <br>
 
 
-Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. it was of huge benefit when making the nav bar far more responsive, when i would inspect the page to see the point of where the site would become distorted the first thing to change was the nav bar because i had it set out on margin at first, but with flexfroggy i came to realise i can do this a different way.
+* A key test I undertook was suggested by my mentor at the midway point of the project, we talked through certain areas and inspected the code and was suggested to me i should look at flexboxfroggy.com, this was key because it showed me an easy way to space out the images i was applying to the products section.
 
 <br>
 
 
-I also went back through the "Love Running" section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
+* Flexbox froggy had 24 mini challenges to run through which explained how to apply the code and where it does and doesnt work which I found extremly helpful and has been of huge benefit to me. it was of huge benefit when making the nav bar far more responsive, when i would inspect the page to see the point of where the site would become distorted the first thing to change was the nav bar because i had it set out on margin at first, but with flexfroggy i came to realise i can do this a different way.
+
+<br>
+
+
+* I also went back through the "Love Running" section of the course and looked through the videos and was coding along with them again trying different things out to see if it would fit or not which I found very helpful.
 
 <br>
 
@@ -251,6 +262,9 @@ having a constant issue of text aligning when lined up to the left it looks dist
 
 * I rectified this by adding !important to overide the inline css so the changes could be made to make my site more responsive at smaller screen sizes. This was the only solution I could come up with, I spent alot of time going through videos and articles not finding exaclty what i needed, 
 
+### Images not loading
+* I had a slight bug on deployed site where the images were not showing, i went back into my code and copied the relative file paths this rectified the issue i was having.
+
 
  <br>
 
@@ -264,7 +278,7 @@ youtube.com
 
 http://flexboxfroggy.com/
 
-Akta Cleaning
+https://www.aktacleaningdublin.com/
 
 Background image was taken from the AKTA website and url link used in css code.
 
