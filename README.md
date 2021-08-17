@@ -7,9 +7,24 @@
  
 
 
-[View Live Project](https://eoinc97.github.io/milestone-project-1/)
+## [View Live Project](https://eoinc97.github.io/milestone-project-1/)
 
 <br>
+
+# Table Of Contents
+* [UX](#ux)
+* [Ideal User Demographic](#IdealUserDemographic)
+* [User stories](#user-stories)
+    * [Wireframe](#wireframe)
+* [Development](#development)
+* [Design](#design)
+* [Features](#features)
+* [Testing](#testing)
+* [Technologies Used](#technologiesused)
+* [Deployment](#deployment)
+* [Validation](#validation)
+* [IssuesandBugs](#issuesandbugs)
+* [Credits](#credits)
 
 
 
@@ -51,7 +66,8 @@ These customers for example would require a high volume of cleaning on a regular
 
 3. As a new customer i want to see what products are available.
 
-4. As a new customer i want to know where the business is located and the best way to get in contact 
+4. As a new customer i want to know where the business is located and the best way to get in contact
+
 <br>
 
 # Wireframe
@@ -85,6 +101,9 @@ This was the end product i came to on my design, I have a second option in which
 A couple of changes have had to be made since making these mockups, when going through media queries some elements on smaller screens did not look as I had hoped, so during the process come elements have been removed mainly on mobile devices.
 
 
+<br>
+
+
 ### Option 2
 This was the first design I came up with, I realised that to look more professional I would have to make the logo look better on the nav bar and also it would have to be on each page to stay consistent, so I went back to the drawing board and came up with my second option which i decided to go ahead with.
 
@@ -99,6 +118,8 @@ This was the first design I came up with, I realised that to look more professio
 
 <br>
 <br>
+
+[Back to Table of contents](#table-of-contents)
 
 
 # Development
@@ -115,13 +136,13 @@ The website will focus on the following audiences:
 
 ## Roles
 *  current Akta customers
-* previous Akta customers 
+*  previous Akta customers 
 *  prospective Akta customers
 
 ## Demographic
-* education sector 
-* hospitality industry
-* fitness industry
+* Education sector 
+* Hospitality industry
+* Fitness industry
 
 ### This website needs to enable AKTA to:
 * develop an online presence
@@ -182,15 +203,25 @@ Each page of the site features a consitent Logo, Footer & Navigation system
 <br>
 
 ### Products Page
+* T
+he products page contains 7 images and pieces of text along with a banner that spreads 100% of the page with a contact button incorperated.
+
+* The top of the page contains a logo and navigation bar and at the botton is a return to top button
+
 
 <br>
 
 ### About Us Page
+* the about us page contains 3 photos of employees and their names and underneath there is some info about the company which give a little bit of a background
+* The top of the page contains a logo and navigation bar and at the botton is a return to top button
+
 <br>
 
 
 
 ### Contact Page
+* The contact page contains a live map taken from Google Maps, below this are some contact details for the company e.g phone number, address.
+* The top of the page contains a logo and navigation bar and at the botton is a return to top button
 <br>
 
 <br>
@@ -223,6 +254,9 @@ Each page of the site features a consitent Logo, Footer & Navigation system
 
 <br>
 
+[Back to Table of contents](#table-of-contents)
+
+
 # Technologies Used
 
 ## Main Languages Used
@@ -239,6 +273,10 @@ Each page of the site features a consitent Logo, Footer & Navigation system
 * Flexbox Froggy
 
 * W3Schools
+
+* Gitpod
+
+* Github
 
 
 # Issues and Bugs
@@ -268,22 +306,50 @@ having a constant issue of text aligning when lined up to the left it looks dist
 
  <br>
 
- ## Validation
+ # Validation
 
  * Ran through validation with mentor on final call, we worked through any errors that came up and we left the call happy 
+
  * Validator used was https://validator.w3.org/#validate_by_input   https://jigsaw.w3.org/css-validator/
+
+* https://validator.w3.org/nu/?doc=https%3A%2F%2Feoinc97.github.io%2Fmilestone-project-1%2Findex.html&showsource=yes
+
+<br>
+
+# Deployment
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub.
+
+To deploy a project i had to: 
+* log into Github and click on the depository I was deploying
+* then select settings and scroll down to git hub pages, this brings you to a seperate window.
+* Fom source select none and then Milestone-Projects branch.
+* Click save and page was deployed after auto-refresh.
+
+To run localy:
+
+* Log in to GitHub and click on repository to download (MP1)
+* select Code and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment
 
 
 
 # Credits
 
-https://www.w3schools.com/
+* https://www.w3schools.com/
 
-youtube.com
+* youtube.com
 
-http://flexboxfroggy.com/
+* http://flexboxfroggy.com/
 
-https://www.aktacleaningdublin.com/
+* https://www.aktacleaningdublin.com/
 
-Background image was taken from the AKTA website and url link used in css code.
+* Background image was taken from the AKTA website and url link used in css code.
+
+### Map
+* google.com
+
+<br>
+
+
+[Back to Table of contents](#table-of-contents)
 
