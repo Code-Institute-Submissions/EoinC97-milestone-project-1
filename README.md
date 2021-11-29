@@ -27,6 +27,8 @@
 * [Credits](#credits)
 
 
+<!-- some links are not working and im not sure how to fix -->
+
 
 
 # Introduction
